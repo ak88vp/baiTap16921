@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    let snt=2
+    let lap=0
+    for(lap=0;lap<20;lap++){
+        let check=true
+        let i;
+        if (i<2){
+            check=false;
+        }else {
+            for (i=2;i<snt;i++){
+                if (snt%i==0){ check=false}
+                else {
+                    check=true;
+                    document.write(snt)
+                }
+            } snt++
+        }
+    }
+
+
+</script>
+</body>
+</html>
